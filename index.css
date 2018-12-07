@@ -11,12 +11,12 @@ html, body {
     padding: 10px 30px; 
 }
 
-.header .logo {
+.header .logo, .logo-somos {
     width: 50px;
     height: 50px;
 }
 
-.header .logo img {
+.header .logo img, .logo-somos img {
     width: 100%;
     height: auto;
 }
@@ -32,12 +32,46 @@ html, body {
     margin: 0px 10px;
 }
 
+.contenido {
+    display: flex;
+    flex-direction: column;
+}
+.imagen {
+    margin: 5% auto;
+    width: 50%;
+}
 
-
-.contenido, {
+.que-somos {
     background: #f1f1f1;
+    display: flex;
+    justify-content: space-around;
+    padding: 5% 0%;
+}
+
+.redes-somos {
+    width: 30px;
+    height: 30px;
+}
+
+.redes-somos img {
+    width: 100%;
+    height: auto;
+}
+
+.texto-somos {
+    max-width: 70%;
 }
 
 .titulo-somos, .nombre, .puesto  {
     color: #E44D26
-} 
+}
+
+.nosotras {
+    display: flex;
+    justify-content: space-around;
+    margin: 5% 0%;
+}
+
+.persona {
+    display: flex;
+}
