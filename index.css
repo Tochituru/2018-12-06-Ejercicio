@@ -122,9 +122,6 @@ html, body {
         margin: 0%;
     }
 
-    .header {
-
-    }
     .nav {
         position: relative;
     }
@@ -134,16 +131,20 @@ html, body {
 
     .nav ul {
         display: none;
+        position: absolute;
     }
 
     .hamburguesa:hover + ul {
         display: flex;
         flex-direction: column;
+        padding: 50px 100px;
+        margin: 0px;
+        background: white;
     }
 
     li {
         padding: 20px;
-        
+
     }
 
 
