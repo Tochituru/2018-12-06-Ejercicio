@@ -11,14 +11,18 @@ html, body {
     padding: 10px 30px; 
 }
 
-.header .logo, .logo-somos {
+.header .logo, .logo-somos, .hamburguesa {
     width: 50px;
     height: 50px;
 }
 
-.header .logo img, .logo-somos img {
+.header .logo img, .logo-somos img, .hamburguesa img {
     width: 100%;
     height: auto;
+}
+
+.hamburguesa {
+    display: none;
 }
 
 .nav ul {
@@ -117,3 +121,30 @@ html, body {
         width: 100%;
         margin: 0%;
     }
+
+    .header {
+
+    }
+    .nav {
+        position: relative;
+    }
+    .hamburguesa {
+        display: block;
+    }
+
+    .nav ul {
+        display: none;
+    }
+
+    .hamburguesa:hover + ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    li {
+        padding: 20px;
+        
+    }
+
+
+}
