@@ -141,11 +141,17 @@ html, body {
         flex-wrap: wrap;
         align-items: center;
         background: white;
-        
     }
 
     li {
         padding: 5px;
+    }
+
+    .logo-somos, .redes-somos {
+        display: none;
+    }
+    .texto-somos {
+        width: 90%;
     }
 
 
